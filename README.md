@@ -25,7 +25,9 @@ iex> Zenohex.Examples.Subscriber.start_link
 {:ok, #PID<>}
 ```
 
-On PC iex shell, **make sure MIX_TARGET is unset before starting iex**
+Nerves project can also run on PC(host), **make sure MIX_TARGET is unset before starting iex**
+
+On PC iex shell,
 
 ```elixir
 iex> Zenohex.Examples.Publisher.start_link
