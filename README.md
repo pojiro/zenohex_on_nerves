@@ -14,6 +14,9 @@ To start your Nerves app:
 
 ### Let's try Zenohex to communicate between Nerves(target) & PC(host)
 
+**Zenohex itself doesn't include `Zenohex.Examples`.  
+We copied the examples from Zenohex to demonstrate.**
+
 On Nerves iex shell,
 
 ```elixir
